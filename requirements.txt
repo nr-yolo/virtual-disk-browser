@@ -1,0 +1,3 @@
+pytsk3>=20231007
+# zstd-compressed QCOW2 clusters: built into Python 3.14+, needs this package on older versions
+zstandard>=0.22; python_version < "3.14"
